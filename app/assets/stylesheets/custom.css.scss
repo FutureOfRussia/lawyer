@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+.nav-end {
+	justify-content: flex-end;
+}
+
 .cont-marg {
 	margin-top: 56px;
 }
@@ -11,6 +15,23 @@
 	background-position: 50% 15%;
 }
 
+.promo-text {
+	text-align: center;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	.t1 {
+		font-weight: 700;
+		font-size: 56px;
+	}
+	.t2 {
+		font-size: 32px;
+	}
+	.t3 {
+		font-weight: 300;
+		font-size: 20px;
+	}
+}
+
 .row.bg {
 	background-color: rgba(0,0,0,0.3);
 }
@@ -18,12 +39,8 @@
 .call-form {
 	background-color: rgba(0,0,0,0.6);
 	box-shadow: 0px 0px 20px 0px black;
-
 }
 
-.nav-end {
-	justify-content: flex-end;
-}
 
 @include media-breakpoint-down(sm) {
 	.promo {
