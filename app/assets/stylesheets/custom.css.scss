@@ -17,27 +17,16 @@
 
 }
 
-@include media-breakpoint-only(xs) {
+@include media-breakpoint-down(sm) {
 	.promo {
-		height: 300px;
+		height: 350px;
 	}
 
 	.call-form {
-		height: 300px;
+		height: 350px;
 	}
 }
 
-@include media-breakpoint-only(sm) {
-	.promo {
-		height: 400px;
-	}
-
-	.call-form {
-		margin-top: 50px;
-		height: 300px;
-		margin-bottom: 50px;
-	}
-}
 
 @include media-breakpoint-only(md) {
 	.promo {
