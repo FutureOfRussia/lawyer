@@ -22,13 +22,16 @@
 	.t1 {
 		font-weight: 700;
 		font-size: 56px;
+		margin: 0;
 	}
 	.t2 {
 		font-size: 32px;
+		margin: 0;
 	}
 	.t3 {
 		font-weight: 300;
 		font-size: 20px;
+		margin: 0;
 	}
 }
 
@@ -83,8 +86,13 @@
 	}
 
 	.call-form {
-		margin-top: 175px;
+		margin-top: 125px;
 		height: 400px;
-		margin-bottom: 125px;
+		margin-bottom: 175px;
+	}
+
+	.promo-text {
+		margin-top: 150px;
+		height: 400px;
 	}
 }
