@@ -54,6 +54,14 @@
 	margin-top: 15px;
 }
 
+#name-input {
+	background-color: rgba(256,256,256,0.5);
+}
+
+#tel-input {
+	background-color: rgba(256,256,256,0.5);
+}
+
 @include media-breakpoint-down(sm) {
 	.promo {
 		height: 750px;
@@ -83,7 +91,7 @@
 
 @include media-breakpoint-only(md) {
 	.promo {
-		height: 535px;
+		height: 585px;
 	}
 
 	.call-form {
@@ -99,9 +107,9 @@
 	}
 
 	.call-form {
-		margin-top: 50px;
+		margin-top: 25px;
 		height: 350px;
-		margin-bottom: 49px;
+		margin-bottom: 25px;
 	}
 }
 
