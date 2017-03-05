@@ -17,7 +17,7 @@
 
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-only(xs) {
 	.promo {
 		height: 300px;
 	}
@@ -27,20 +27,43 @@
 	}
 }
 
-@include media-breakpoint-only(md) {
+@include media-breakpoint-only(sm) {
 	.promo {
 		height: 400px;
 	}
 
 	.call-form {
-		margin-top: 25px;
-		height: 350px;
-		margin-bottom: 25px;
+		margin-top: 50px;
+		height: 300px;
+		margin-bottom: 50px;
 	}
 }
 
-@include media-breakpoint-up(lg) {
-	
+@include media-breakpoint-only(md) {
+	.promo {
+		height: 500px;
+	}
+
+	.call-form {
+		margin-top: 75px;
+		height: 350px;
+		margin-bottom: 75px;
+	}
+}
+
+@include media-breakpoint-only(lg) {
+	.promo {
+		height: 600px;
+	}
+
+	.call-form {
+		margin-top: 100px;
+		height: 400px;
+		margin-bottom: 100px;
+	}
+}
+
+@include media-breakpoint-only(xl) {	
 	.promo {
 		height: 700px;
 	}
