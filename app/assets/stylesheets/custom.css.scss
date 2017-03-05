@@ -17,6 +17,10 @@
 
 }
 
+.nav-end {
+	justify-content: flex-end;
+}
+
 @include media-breakpoint-down(sm) {
 	.promo {
 		height: 400px;
