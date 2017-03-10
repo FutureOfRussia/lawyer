@@ -171,13 +171,43 @@
 		height: 585px;
 	}
 
+	.promo-text {
+		.t1 {
+			font-size: 3.8rem;
+		}
+		.t2 {
+			font-size: 2rem;
+		}
+		.t3 {
+			font-size: 1rem;
+		}
+	}
+
 	.call-form {
 		margin-top: 10px;
 		height: 350px;
 		margin-bottom: 14px;
 	}
 
+	.call-form-text {
+		font-size: 1.4rem;
+	}
+
 	/* Services */
+	.services {
+		height: 900px;
+	}
+
+	.work {
+		height: 450px;
+	}
+
+	.direct {
+		height: 450px;
+		.t1 {
+			font-size: 1.7rem;
+		}
+	}
 
 	/* About us */
 		
@@ -227,6 +257,9 @@
 
 	.direct {
 		height: 450px;
+		.t1 {
+			font-size: 2.3rem;
+		}
 	}
 
 	/* About us */
