@@ -80,6 +80,7 @@
 	.step {
 		.icon {
 			background-color: #009688;
+			border-radius: 50%;
 		}
 		.text {
 			
@@ -347,12 +348,18 @@
 	.direct {
 		height: 650px;
 		.t1 {
+			margin-top: 50px;
 			font-size: 2.8rem;
 		}
 		.step {
+			margin-top: 50px;
 			.icon {
 				width: 95px;
 				height: 95px;
+			}
+			.text {
+				margin-top: 50px;
+				font-size: 1.6rem;
 			}
 		}
 	}
