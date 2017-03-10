@@ -79,9 +79,7 @@
 	}
 	.step {
 		.icon {
-			border: 1px solid white;
-			border-radius: 50%;
-		}
+			text-shadow: 0 0 15px silver;		}
 		.text {
 			
 		}
@@ -176,10 +174,6 @@
 		.step {
 			height: 80px;
 			margin-top: 10px;
-			.icon {
-				height: 75px;
-				width: 75px;
-			}
 		}
 		.text {
 			font-size: 1rem;
@@ -241,10 +235,6 @@
 		}
 		.step {
 			margin-top: 25px;
-			.icon {
-				width: 90px;
-				height: 90px;
-			}
 			.text {
 				margin-top: 25px;
 				font-size: 1.2rem;
@@ -306,10 +296,6 @@
 		}
 		.step {
 			margin-top: 25px;
-			.icon {
-				width: 90px;
-				height: 90px;
-			}
 			.text {
 				margin-top: 25px;
 				font-size: 1.4rem;
@@ -373,10 +359,6 @@
 		}
 		.step {
 			margin-top: 50px;
-			.icon {
-				width: 100px;
-				height: 100px;
-			}
 			.text {
 				margin-top: 50px;
 				font-size: 1.6rem;
