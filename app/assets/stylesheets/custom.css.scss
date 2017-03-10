@@ -116,7 +116,6 @@
 
 /* Contacts */
 .contacts {
-	height: 351px;
 	.t1 {
 		text-align: center;
 		color: white;
@@ -214,6 +213,14 @@
 	/* Practice */
 		
 	/* Contacts */
+	.contacts {
+		height: 315px;
+		.t1 {
+			margin-top: 15px;
+			margin-bottom: 10px;
+			font-size: 1.3rem;
+		}
+	}
 }
 
 
@@ -276,6 +283,14 @@
 	/* Practice */
 		
 	/* Contacts */
+	.contacts {
+		height: 325px;
+		.t1 {
+			margin-top: 15px;
+			margin-bottom: 10px;
+			font-size: 1.7rem;
+		}
+	}
 }
 
 @include media-breakpoint-only(lg) {
@@ -338,9 +353,10 @@
 		
 	/* Contacts */
 	.contacts {
+		height: 340px;
 		.t1 {
 			margin-top: 25px;
-			font-size: 2rem;
+			font-size: 2.3rem;
 		}
 	}
 
@@ -408,6 +424,7 @@
 		
 	/* Contacts */
 	.contacts {
+		height: 351px;
 		.t1 {
 			margin-top: 25px;
 			font-size: 2.8rem;
