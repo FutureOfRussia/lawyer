@@ -150,6 +150,69 @@
 
 /* Breakpoint */
 @include media-breakpoint-only(xs) {
+	/* Promo */
+	.promo {
+		height: 750px;
+	}
+
+	.call-form {
+		height: 350px;
+		margin-bottom: 25px;
+	}
+
+	.call-form-text {
+		font-size: 1.4rem;
+	}
+
+	.promo-text {
+		margin-top: 75px;
+		height: 225px;
+		margin-bottom: 75px;
+		.t1 {
+			margin: 0;
+			font-size: 4rem;
+		}
+		.t2 {
+			font-size: 2rem;
+			margin: 0;
+		}
+		.t3 {
+			font-size: 1rem;
+			margin: 0;
+		}
+	}
+
+	/* Services */
+	.services {
+		height: 900px;
+	}
+
+	.work {
+		height: 350px;
+	}
+
+	.direct {
+		height: 550px;
+		.t1 {
+			margin-top: 15px;
+			font-size: 2rem;
+		}
+		.step {
+			height: 80px;
+			margin-top: 10px;
+		}
+		.text {
+			font-size: 1rem;
+		}
+	}
+
+	/* About us */
+		
+	/* Certificates */
+		
+	/* Practice */
+		
+	/* Contacts */
 	.contacts {
 		height: 416px;
 		.t1 {
@@ -160,7 +223,7 @@
 	}
 }	
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-only(sm) {
 	/* Promo */
 	.promo {
 		height: 750px;
