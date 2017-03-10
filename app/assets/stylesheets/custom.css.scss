@@ -116,11 +116,16 @@
 
 /* Contacts */
 .contacts {
-	height: 450px;
+	height: 350px;
 	.t1 {
 		text-align: center;
 		color: white;
 		font-family: 'Comfortaa', 'Roboto', sans-serif;
+	}
+	.card {
+		padding: 0;
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 }
 
