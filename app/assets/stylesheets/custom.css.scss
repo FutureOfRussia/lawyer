@@ -148,7 +148,18 @@
 	background-color: white;
 }
 
-/* Breakpoint */		
+/* Breakpoint */
+@include media-breakpoint-only(xs) {
+	.contacts {
+		height: 416px;
+		.t1 {
+			margin-top: 15px;
+			margin-bottom: 10px;
+			font-size: 1.2rem;
+		}
+	}
+}	
+
 @include media-breakpoint-down(sm) {
 	/* Promo */
 	.promo {
