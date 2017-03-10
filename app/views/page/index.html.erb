@@ -47,15 +47,15 @@
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="name-input" class="offset-1 col-3 col-form-label">Имя:</label>
+						<label for="name-input-1" class="offset-1 col-3 col-form-label">Имя:</label>
 						<div class="col-7">
-							<input type="name" class="form-control" id="name-input">
+							<input type="name" class="form-control" id="name-input-1">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="tel-input" class="offset-1 col-3 col-form-label">Телефон:</label>
+						<label for="tel-input-1" class="offset-1 col-3 col-form-label">Телефон:</label>
 						<div class="col-7">
-							<input type="tel" class="form-control" id="tel-input">
+							<input type="tel" class="form-control" id="tel-input-1">
 						</div>
 					</div>
 					<div class="row">
@@ -144,7 +144,16 @@
 		<!-- Contacts block -->
 		<div class="col-12">
 			<div class="row">
-				<div class="col-12 contacts bg"></div>
+				<div class="col-12 contacts bg">
+					<p class="t1">Оставьте заявку и адвокат свяжется с Вами</p>
+					<div class="form-group row justify-content-center">
+						<label for="name-input-2" class="sr-only">Имя: </label>
+						<input type="name" class="col-md-3 form-control" id="name-input-2" placeholder="Имя">
+						<label for="tel-input-2" class="sr-only">Телефон: </label>
+						<input type="tel" class="col-md-3 form-control" id="tel-input-2" placeholder="Телефон">
+						<button type="submit" class="btn btn-success col-md-3">Отправить заявку</button>
+					</div>
+				</div>
 				<div class="col-12 map" id="map"></div>
 			</div>
 		</div>
