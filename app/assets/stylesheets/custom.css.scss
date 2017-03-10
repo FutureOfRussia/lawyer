@@ -170,11 +170,19 @@
 	.direct {
 		height: 550px;
 		.t1 {
+			margin-top: 15px;
 			font-size: 2rem;
 		}
 		.step {
 			height: 80px;
-			margin-bottom: 10px;
+			margin-top: 20px;
+			.icon {
+				height: 75px;
+				width: 75px;
+			}
+		}
+		.text {
+			font-size: 1.4rem;
 		}
 	}
 
