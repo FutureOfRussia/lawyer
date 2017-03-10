@@ -122,6 +122,10 @@
 	background-color: green;
 }
 
+.map {
+	padding: 0;
+}
+
 /* Breakpoint */		
 @include media-breakpoint-down(sm) {
 	/* Promo */
