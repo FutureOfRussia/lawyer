@@ -79,8 +79,6 @@
 	}
 	.step {
 		.icon {
-			width: 100px;
-			height: 100px;
 			background-color: #009688;
 			border-radius: 500px;
 		}
@@ -174,6 +172,19 @@
 		.t1 {
 			font-size: 2rem;
 		}
+		.step {
+			margin-bottom: 10px;
+			.icon {
+				margin-left: 15px;
+				width: 80px;
+				height: 80px;
+			}
+			.text {
+				margin-left: 15px;
+				width: 300px;
+				height: 80px;
+			}
+		}
 	}
 
 	/* About us */
@@ -228,6 +239,12 @@
 		.t1 {
 			font-size: 1.7rem;
 		}
+		.step {
+			.icon {
+				width: 85px;
+				height: 85px;
+			}
+		}
 	}
 
 	/* About us */
@@ -280,6 +297,12 @@
 		height: 450px;
 		.t1 {
 			font-size: 2.3rem;
+		}
+		.step {
+			.icon {
+				width: 90px;
+				height: 90px;
+			}
 		}
 	}
 
@@ -335,6 +358,12 @@
 		height: 650px;
 		.t1 {
 			font-size: 2.8rem;
+		}
+		.step {
+			.icon {
+				width: 95px;
+				height: 95px;
+			}
 		}
 	}
 	
