@@ -140,6 +140,15 @@
 	padding: 0;
 }
 
+/* Footer */
+.footer {
+	height: 100px;
+}
+
+.footer.bg {
+	background-color: white;
+}
+
 /* Breakpoint */		
 @include media-breakpoint-down(sm) {
 	/* Promo */
