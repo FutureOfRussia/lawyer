@@ -130,7 +130,9 @@
 }
 
 .contacts.bg {
-	background-color: #9e9e9e;
+	background-image: url('lawyer-slider.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.4);
 }
 
