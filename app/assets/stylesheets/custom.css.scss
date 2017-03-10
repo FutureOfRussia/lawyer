@@ -1,13 +1,16 @@
 @import "bootstrap";
 
+/* Navbar */
 .nav-end {
 	justify-content: flex-end;
 }
 
-.cont-marg {
+/* Content */
+.content-marg {
 	margin-top: 56px;
 }
 
+/* Promo */
 .promo.bg {
 	background-image: url('lawyer-promo.jpg');
 	background-size: cover;
@@ -32,7 +35,7 @@
 	}
 }
 
-.row.bg {
+.row-bg {
 	background-color: rgba(0,0,0,0.3);
 }
 
@@ -62,7 +65,77 @@
 	background-color: rgba(256,256,256,0.5);
 }
 
+/* Services */
+.work.bg {
+	background-color: white;
+}
+
+.direct.bg {
+	background-image: url('lawyer-direct.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.direct {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	.t1 {
+		font-size: 36px;
+		font-family: 'Comfortaa', 'Roboto', sans-serif;
+	}
+	.step {
+		.icon {
+			height: 100px;
+			background-color: #4e6a6a;
+			border-radius: 500px;
+		}
+		.text {
+			
+		}
+	}
+}
+
+/* About us */
+.about {
+	height: 600px;
+}
+
+.about.bg {
+	background-color: white;
+}
+
+/* Certificates */
+.cert {
+	height: 700px;
+}		
+
+.cert.bg {
+	background-color: yellow;
+}
+
+/* Practice */
+.practice {
+	height: 500px;
+}		
+
+.practice.bg {
+	background-color: white;
+}
+
+/* Contacts */
+.contacts {
+	height: 600px;
+}
+
+.contacts.bg {
+	background-color: green;
+}
+
+/* Breakpoint */		
 @include media-breakpoint-down(sm) {
+	/* Promo */
 	.promo {
 		height: 750px;
 	}
@@ -86,10 +159,21 @@
 			margin: 0;
 		}
 	}
+
+	/* Services */
+
+	/* About us */
+		
+	/* Certificates */
+		
+	/* Practice */
+		
+	/* Contacts */
 }
 
 
 @include media-breakpoint-only(md) {
+	/* Promo */
 	.promo {
 		height: 585px;
 	}
@@ -99,9 +183,20 @@
 		height: 350px;
 		margin-bottom: 14px;
 	}
+
+	/* Services */
+
+	/* About us */
+		
+	/* Certificates */
+		
+	/* Practice */
+		
+	/* Contacts */
 }
 
 @include media-breakpoint-only(lg) {
+	/* Promo */
 	.promo {
 		height: 610px;
 	}
@@ -111,9 +206,31 @@
 		height: 350px;
 		margin-bottom: 25px;
 	}
+
+	/* Services */
+	.services {
+		height: 900px;
+	}
+
+	.work {
+		height: 450px;
+	}
+
+	.direct {
+		height: 450px;
+	}
+
+	/* About us */
+		
+	/* Certificates */
+		
+	/* Practice */
+		
+	/* Contacts */
 }
 
 @include media-breakpoint-only(xl) {	
+	/* Promo */
 	.promo {
 		height: 700px;
 	}
@@ -128,4 +245,25 @@
 		margin-top: 150px;
 		height: 400px;
 	}
+
+	/* Services */
+	.services {
+		height: 1000px;
+	}
+
+	.work {
+		height: 450px;
+	}
+
+	.direct {
+		height: 450px;
+	}
+	
+	/* About us */
+		
+	/* Certificates */
+		
+	/* Practice */
+		
+	/* Contacts */
 }
