@@ -79,7 +79,8 @@
 	}
 	.step {
 		.icon {
-			text-shadow: 0 0 15px silver;		}
+			text-shadow: 0 0 15px silver;		
+		}
 		.text {
 			
 		}
@@ -116,11 +117,16 @@
 /* Contacts */
 .contacts {
 	height: 450px;
+	.t1 {
+		text-align: center;
+		color: white;
+		font-family: 'Comfortaa', 'Roboto', sans-serif;
+	}
 }
 
 .contacts.bg {
 	background-color: #9e9e9e;
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+	box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.4);
 }
 
 .map {
@@ -378,4 +384,10 @@
 	/* Practice */
 		
 	/* Contacts */
+	.contacts {
+		.t1 {
+			margin-top: 25px;
+			font-size: 2.9rem;
+		}
+	}
 }
