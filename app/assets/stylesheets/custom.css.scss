@@ -155,11 +155,7 @@
 		font-size: 1rem;
 		margin-top: 10px;
 		text-align: center;
-	}
-	.t3 {
-		&:focus {
-			border: none;
-			box-shadow: none;
+		&:hover {
 			text-decoration: none;
 		}
 	}
