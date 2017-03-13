@@ -16,6 +16,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 15%;
+	box-shadow: inset 0 0 20px black;
 }
 
 .promo-text {
@@ -67,7 +68,8 @@
 .direct.bg {
 	background-image: url('lawyer-direct.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 20px black;	
 }
 
 .direct {
@@ -98,11 +100,14 @@
 
 /* Certificates */
 .cert {
-	height: 700px;
 }		
 
 .cert.bg {
-	background-color: yellow;
+}
+
+.cert-img {
+	height: 300px;
+	background-color: black;
 }
 
 /* Practice */
@@ -133,6 +138,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	box-shadow: inset 0 0 20px black;
 }
 
 #map {
@@ -141,11 +147,12 @@
 
 /* Footer */
 .footer {
-	height: 50px;
+	height: 65px;
 }
 
 .footer.bg {
-	background-color: white;
+	box-shadow: inset 0 0 20px black;
+	background-color: rgb(162,156,150);
 }
 
 /* Breakpoint */

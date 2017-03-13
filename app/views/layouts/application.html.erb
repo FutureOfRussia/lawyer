@@ -20,7 +20,8 @@
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jMNDeaRaR-ZidPLRGXijG4Eq3Pe3w7m8&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true&amp;id=map"></script> 
   </head>
 
-  <body data-spy="scroll" data-target="#navbar">
+  <body data-spy="scroll" data-target="#navbar" id="body">
     <%= yield %>
+    <%= debug(params) if Rails.env.development? %>
   </body>
 </html>
