@@ -195,7 +195,42 @@
 						<div class="col-12" id="map"></div>
 					</div>
 				</div>
-				<div class="col-12 footer"></div>
+				<div class="col-12 footer">
+					<div class="row">
+						<div class="col-md-4 col-12">
+							<p class="t1">Телефон: 8(800)555-35-35</p>
+						</div>
+						<div class="col-md-4 col-12">
+							<p class="t2">E-mail: la-bla-bla@mail.ru</p>
+						</div>
+						<div class="col-md-4 col-12">
+							<a href="#" data-toggle="modal" data-target="#modal"><p class="t3">Политика конфиденциальности</p></a>
+						</div>
+						
+						<!-- Modal -->
+						<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="modalTitle">Политика конфиденциальности</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<%= render 'shared/conf' %>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End -->
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- End -->
