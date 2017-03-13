@@ -155,16 +155,15 @@
 		font-size: 1rem;
 		margin-top: 10px;
 		text-align: center;
-		&:hover {
-			text-decoration: none;
-		}
-		&:focus {
-			text-decoration: none;
-			outline: none;
-		}
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:focus {
+		text-decoration: none;
+		outline: none;
 	}
 }
-
 
 
 /* Breakpoint */
