@@ -156,7 +156,16 @@
 		margin-top: 10px;
 		text-align: center;
 	}
+	.t3 {
+		&:focus {
+			border: none;
+			box-shadow: none;
+			text-decoration: none;
+		}
+	}
 }
+
+
 
 /* Breakpoint */
 @include media-breakpoint-only(xs) {
