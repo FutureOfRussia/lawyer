@@ -150,8 +150,10 @@
 
 .footer {
 	height: 65px;
+	.t1 {
+		font-size: 1rem;
+	}
 }
-
 
 /* Breakpoint */
 @include media-breakpoint-only(xs) {
@@ -227,10 +229,6 @@
 			margin-bottom: 10px;
 			font-size: 1.2rem;
 		}
-	}
-
-	.t1.foo {
-		font-size: 1rem;
 	}
 }	
 
