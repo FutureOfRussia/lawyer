@@ -1,5 +1,5 @@
 <!-- Header -->
-<nav class="navbar fixed-top navbar-toggleable-sm navbar-light" id="navbar" style="background-color: rgba(256,256,256,1);">
+<nav class="navbar fixed-top navbar-toggleable-sm navbar-light" id="navbar" style="background-color: rgba(256,256,256,1); box-shadow: 0 0 15px black;">
 	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -167,44 +167,36 @@
 		<!-- End -->
 
 		<!-- Contacts block -->
-		<div class="col-12" id="contacts">
-			<div class="row">
-				<div class="col-12 contacts bg">
-					<div class="row row-bg">
-						<div class="col-12 t1">Оставьте заявку и адвокат свяжется с Вами</div>
-						<div class="col-12">
-							<div class="form-group row justify-content-center">
-								<label for="name-input-2" class="sr-only">Имя: </label>
-								<input type="name" class="col-xl-2 col-md-3 col-sm-4 col-12 form-control" id="name-input-2" placeholder="Имя">
-								<label for="tel-input-2" class="sr-only">Телефон: </label>
-								<input type="tel" class="col-xl-2 col-md-3 col-sm-4 col-12 form-control" id="tel-input-2" placeholder="Телефон">
-								<button type="submit" class="btn btn-success col-xl-2 col-md-3 col-sm-4 col-12">Отправить заявку</button>
-							</div>
-						</div>
-						<div class="card card-inverse offset-lg-4 col-lg-4 offset-md-3 col-md-6 offset-sm-2 col-sm-8 col-12" style="background-color: rgba(0,0,0,0.6);">
-							<div class="card-header" style="border-color: #fff;">
-								Наш адрес:
-							</div>
-							<div class="card-block">
-								<blockquote class="card-blockquote">
-									<p>Ул. Красноармейская, д. 16</p>
-									<footer>Часы работы:<cite title="Часы работы"> пн-пт 9-18</cite></footer>
-								</blockquote>
-							</div>
-						</div>
+		<div class="col-12 contacts bg" id="contacts">
+			<div class="row row-bg">
+				<div class="col-12 t1">Оставьте заявку и адвокат свяжется с Вами</div>
+				<div class="col-12">
+					<div class="form-group row justify-content-center">
+						<label for="name-input-2" class="sr-only">Имя: </label>
+						<input type="name" class="col-xl-2 col-md-3 col-sm-4 col-12 form-control" id="name-input-2" placeholder="Имя">
+						<label for="tel-input-2" class="sr-only">Телефон: </label>
+						<input type="tel" class="col-xl-2 col-md-3 col-sm-4 col-12 form-control" id="tel-input-2" placeholder="Телефон">
+						<button type="submit" class="btn btn-success col-xl-2 col-md-3 col-sm-4 col-12">Отправить заявку</button>
 					</div>
 				</div>
-				<div class="col-12 map">
+				<div class="card card-inverse offset-lg-4 col-lg-4 offset-md-3 col-md-6 offset-sm-2 col-sm-8 col-12" style="background-color: rgba(0,0,0,0.6);">
+					<div class="card-header" style="border-color: #fff;">
+						Наш адрес:
+					</div>
+					<div class="card-block">
+						<blockquote class="card-blockquote">
+							<p>Ул. Красноармейская, д. 16</p>
+							<footer>Часы работы:<cite title="Часы работы"> пн-пт 9-18</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-6 offset-3 map">
 					<div class="row">
 						<div class="col-12" id="map"></div>
 					</div>
 				</div>
+				<div class="col-12 footer"></div>
 			</div>
-		</div>
-		<!-- End -->
-		<!-- Footer -->
-		<div class="col-12 footer bg">
-			
 		</div>
 		<!-- End -->
 	</div>
