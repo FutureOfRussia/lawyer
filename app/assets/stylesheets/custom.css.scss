@@ -228,6 +228,12 @@
 			font-size: 1.2rem;
 		}
 	}
+
+	.footer {
+		.t1 {
+			font-size: 1rem;
+		}
+	}
 }	
 
 @include media-breakpoint-only(sm) {
