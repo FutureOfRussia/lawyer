@@ -98,22 +98,18 @@
 
 /* Certificates */
 .cert {
-	padding: 2px 0;
+	padding: 2px 0 20px 0;
 	.t1 {
 		text-align: center;
 		color: white;
 		font-family: 'Comfortaa', 'Roboto', sans-serif;
 		font-size: 3rem;
+		margin-bottom: 0;
 	}
 }		
 
 .cert.bg {
 	background-color: rgba(51,51,51,0.8);
-}
-
-.cert-img {
-	background-color: black;
-	box-shadow: 0 0 20px black;
 }
 
 .carousel-item {
