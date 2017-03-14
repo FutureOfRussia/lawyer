@@ -5,6 +5,14 @@
 	justify-content: flex-end;
 }
 
+.nav-link {
+	color: black;
+}
+
+.nav-link.active {
+	color: rgba(0,0,0,0.4);
+}
+
 /* Content */
 .content-marg {
 	margin-top: 56px;
