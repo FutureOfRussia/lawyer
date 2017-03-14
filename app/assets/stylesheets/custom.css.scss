@@ -99,6 +99,12 @@
 /* Certificates */
 .cert {
 	padding: 2px 0;
+	.t1 {
+		text-align: center;
+		color: white;
+		font-family: 'Comfortaa', 'Roboto', sans-serif;
+		font-size: 3rem;
+	}
 }		
 
 .cert.bg {
@@ -110,7 +116,7 @@
 	box-shadow: 0 0 20px black;
 }
 
-.carousel-item.active {
+.carousel-item {
 	justify-content: center;
 }
 
@@ -311,7 +317,7 @@
 		
 	/* Certificates */
 	.cert-img {
-		height: 500px;
+		height: 450px;
 	}
 	
 	/* Practice */
@@ -387,7 +393,7 @@
 		
 	/* Certificates */
 	.cert-img {
-		height: 600px;
+		height: 500px;
 	}
 		
 	/* Practice */
@@ -462,7 +468,7 @@
 		
 	/* Certificates */
 	.cert-img {
-		height: 700px;
+		height: 600px;
 	}
 		
 	/* Practice */
