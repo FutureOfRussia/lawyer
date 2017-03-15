@@ -1,0 +1,171 @@
+/* Font */
+.font {
+	text-align: center;
+	color: white;
+	font-family: 'Comfortaa', 'Roboto', sans-serif;
+}
+
+/* Content */
+.content-marg {
+	margin-top: 56px;
+}
+
+/* Navbar */
+.nav-end {
+	justify-content: flex-end;
+}
+
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: black;
+			font-weight: 600;
+		}
+		.nav-link.active {
+			color: rgba(0,0,0,0.4);
+		}
+	}
+}
+
+/* Promo */
+.promo.bg {
+	background-image: url('lawyer-promo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 15%;
+}
+
+.row.bg {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.call-form {
+	height: 350px;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.8);
+}
+
+.call-form-text {
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.call-form-btn {
+	margin-top: 15px;
+}
+
+.form-bg {
+	background-color: rgba(256,256,256,0.5);
+}
+
+/* Services */
+.direct.bg {
+	background-color: rgba(0,0,0,0.07);
+}
+
+.work.bg {
+	background-image: url('lawyer-direct.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+.work {
+	padding-top: 10px;
+	.step {
+		.icon {
+			text-shadow: 0 0 15px silver;		
+		}
+	}
+}
+
+/* About us */
+.about {
+	height: 600px;
+}
+
+.about.bg {
+	background-color: rgba(0,0,0,0.07);
+}
+
+/* Certificates */
+.cert {
+	padding: 0;
+	.t-1 {
+		margin-top: 15px;
+		margin-bottom: -10px;
+		font-size: 2.8rem;
+	}
+}		
+
+.cert.bg {
+	background-image: url('lawyer-cert.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cert-img {
+	box-shadow: 0 0 20px black;
+	margin: 20px 0;
+}
+
+.carousel-item {
+	justify-content: center;
+}
+
+/* Practice */
+.practice {
+	height: 500px;
+	.t-1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-size: 2.8rem;
+	}
+}		
+
+.practice.bg {
+	background-color: rgba(0,0,0,0.07);
+}
+
+/* Contacts */
+.contacts {
+	.t-1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.card {
+		padding: 0;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+
+.contacts.bg {
+	background-image: url('lawyer-slider.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#map {
+	padding: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.footer {
+	.t-2 {
+		font-size: 1rem;
+		margin-top: 10px;
+	}
+	.t-3 {
+		color: #42a5f5;
+		font-size: 0.9rem;
+		margin-top: 10px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:focus {
+		text-decoration: none;
+		outline: none;
+	}
+}
