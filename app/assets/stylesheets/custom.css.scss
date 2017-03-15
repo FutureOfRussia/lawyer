@@ -1,5 +1,12 @@
 @import "bootstrap";
 
+/* Font */
+.t1, .t2, .t3 {
+	text-align: center;
+	color: white;
+	font-family: 'Comfortaa', 'Roboto', sans-serif;
+}
+
 /* Navbar */
 .nav-end {
 	justify-content: flex-end;
@@ -29,18 +36,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 15%;
-}
-
-.promo-text {
-	text-align: center;
-	color: white;
-	font-family: 'Comfortaa', 'Roboto', sans-serif;
-	.t1 {
-		font-weight: 700;
-	}
-	.t3 {
-		font-weight: 300;
-	}
 }
 
 .row-bg {
@@ -87,9 +82,6 @@
 	text-align: center;
 	color: white;
 	padding-top: 10px;
-	.t1 {
-		font-family: 'Comfortaa', 'Roboto', sans-serif;
-	}
 	.step {
 		.icon {
 			text-shadow: 0 0 15px silver;		
@@ -113,12 +105,8 @@
 .cert {
 	padding: 0;
 	.t1 {
-		text-align: center;
-		color: white;
-		font-family: 'Comfortaa', 'Roboto', sans-serif;
-		margin-bottom: 0;
 		margin-top: 15px;
-		margin-left: -10px;
+		margin-bottom: -10px;
 		font-size: 2.8rem;
 	}
 }		
@@ -142,6 +130,11 @@
 /* Practice */
 .practice {
 	height: 500px;
+	.t1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-size: 2.8rem;
+	}
 }		
 
 .practice.bg {
@@ -153,9 +146,6 @@
 	.t1 {
 		margin-top: 15px;
 		margin-bottom: 10px;
-		text-align: center;
-		color: white;
-		font-family: 'Comfortaa', 'Roboto', sans-serif;
 	}
 	.card {
 		padding: 0;
@@ -178,10 +168,8 @@
 
 .footer {
 	.t2 {
-		color: white;
 		font-size: 1rem;
 		margin-top: 10px;
-		text-align: center;
 	}
 	.t3 {
 		color: #42a5f5;
@@ -508,76 +496,5 @@
 }
 
 @include media-breakpoint-only(xl) {	
-	/* Promo */
-	.promo {
-		height: 700px;
-	}
-
-	.call-form {
-		margin-top: 175px;
-		height: 350px;
-		margin-bottom: 175px;
-	}
-
-	.call-form-text {
-		font-size: 1.3rem;
-	}
-
-	.promo-text {
-		margin-top: 150px;
-		height: 400px;
-		.t1 {
-			font-size: 4rem;
-		}
-		.t2 {
-			font-size: 2.5rem;
-		}
-		.t3 {
-			font-size: 1.2rem;
-		}
-	}
-
-	/* Services */
-	.services {
-		height: 1300px;
-	}
-
-	.work {
-		height: 650px;
-	}
-
-	.direct {
-		height: 650px;
-		.t1 {
-			margin-top: 50px;
-			font-size: 2.8rem;
-		}
-		.step {
-			margin-top: 50px;
-			.text {
-				margin-top: 50px;
-				font-size: 1.6rem;
-			}
-		}
-	}
-	
-	/* About us */
-		
-	/* Certificates */
-	.cert-img {
-		height: 750px;
-	}
-
-	/* Practice */
-		
-	/* Contacts */
-	.contacts {
-		.t1 {
-			font-size: 2.8rem;
-		}
-	}
-
-	.footer {
-		height: 50px;
-	}
+	@import "xl";
 }
