@@ -1,0 +1,21 @@
+<div class="col-12 result">
+	<% if @status == 4 %>
+		<div class="card card-inverse card-danger text-center">
+			<div class="card-block">
+				<blockquote class="card-blockquote">
+					<p>Ошибка сервиса.</p>
+					<footer><%= @description %></footer>
+				</blockquote>
+			</div>
+		</div>
+	<% else %>
+		<div class="card card-inverse card-success text-center">
+			<div class="card-block">
+				<blockquote class="card-blockquote">
+					<p>Ваша заявка принята.</p>
+					<footer>Ожидайте звонка.</footer>
+				</blockquote>
+			</div>
+		</div>
+	<% end %>
+</div>
