@@ -1,7 +1,12 @@
-<% if @status == 4 %>
+<% if @status != 0 %>
 	<div class="card card-inverse card-danger text-center">
 		<div class="card-block">
 			<blockquote class="card-blockquote">
+				<div class="text-right">
+					<a class="close" aria-label="Close" data-remote="true" href="/back">
+						<span aria-hidden="true">&times;</span>
+					</a>
+				</div>
 				<p>Ошибка сервиса.</p>
 				<footer><%= @description %></footer>
 			</blockquote>
