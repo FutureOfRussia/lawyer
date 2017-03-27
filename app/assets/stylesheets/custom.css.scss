@@ -533,11 +533,16 @@
 
 .call-form {
 	margin-bottom: 25px;
-	height: 320px;
+	label {
+		font-size: 0.8rem;
+	}
+	.form-group {
+		margin-bottom: 0;
+	}
 }
 
 .call-form-text {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
@@ -549,8 +554,14 @@
 
 /* Services */
 .direct {
+	.t-1 {
+		font-size: 2.3rem;
+	}
 	.t-2 {
 		font-size: 1.6rem;
+	}
+	.t-3 {
+		font-size: 0.9rem;
 	}
 }
 
