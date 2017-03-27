@@ -109,7 +109,7 @@
 
 /* About us */
 .about {
-	padding-bottom: 15px;
+	padding-bottom: 35px;
 	font-family: 'Comfortaa', 'Roboto', sans-serif;
 	.t-1 {
 		margin-top: 15px;
@@ -359,17 +359,8 @@
 
 /* About us */
 .about {
-	.t-1 {
-
-	}
-	.t-2 {
-
-	}
-	.t-3 {
-		
-	}
 	.photo{
-
+		max-height: 600px;
 	}
 }		
 /* Certificates */
@@ -448,17 +439,14 @@
 
 /* About us */
 .about {
-	.t-1 {
-
-	}
 	.t-2 {
-
+		text-align: center;
 	}
 	.t-3 {
-		
+		margin-top: 15px;
 	}
 	.photo{
-
+		max-height: 700px;
 	}
 }		
 /* Certificates */
@@ -540,17 +528,14 @@
 
 /* About us */
 .about {
-	.t-1 {
-
-	}
 	.t-2 {
-
+		text-align: center;
 	}
 	.t-3 {
-		
+		margin-top: 15px;
 	}
 	.photo{
-
+		max-height: 700px;
 	}
 }		
 /* Certificates */
@@ -638,16 +623,17 @@
 /* About us */
 .about {
 	.t-1 {
-
+		font-size: 2.2rem;
 	}
 	.t-2 {
-
+		text-align: center;
 	}
 	.t-3 {
-		
+		margin-top: 15px;
+		font-size: 0.9rem;
 	}
 	.photo{
-
+		max-height: 450px;
 	}
 }	
 /* Certificates */
