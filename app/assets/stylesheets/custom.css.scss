@@ -122,9 +122,6 @@
 	.block {
 		margin-top: 15px;
 	}
-	.i {
-		text-align: right;
-	}
 }
 
 .about.bg {
@@ -171,6 +168,9 @@
 	}
 	.block {
 		margin-top: 15px;
+	}
+	.i {
+		text-align: right;
 	}
 }		
 
@@ -297,6 +297,7 @@
 
 /* Practice */
 .practice {
+	min-height: 700px;
 	.t-1 {
 		margin-top: 15px;
 		margin-bottom: 30px;
