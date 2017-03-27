@@ -71,10 +71,18 @@
 .direct {
 	font-family: 'Comfortaa', 'Roboto', sans-serif;
 	.t-1 {
+		font-size: 2.8rem;
 		text-align: center;
 	}
 	.t-2 {
 		font-weight: bold;
+	}
+	.i {
+		text-align: right;
+	}
+	.block {
+		margin-bottom: 15px;
+		padding-top: 10px;
 	}
 }
 
@@ -217,17 +225,10 @@
 
 /* Services */
 .direct {
-	.block {
-		margin-bottom: 15px;
-		padding-top: 10px;
-	}
-	.i {
-		text-align: right;
-	}
+	min-height: 750px;
 	.t-1 {
 		margin-top: 15px;
 		margin-bottom: 30px;
-		font-size: 2.8rem;
 	}
 	.t-2 {
 		font-size: 1.6rem;
@@ -307,7 +308,13 @@
 
 /* Services */
 .direct {
-	
+	.t-1 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.t-2 {
+		font-size: 1.4rem;
+	}
 }
 
 .work {
