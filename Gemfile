@@ -40,9 +40,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'addressable'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sprockets-rails', '~> 2.3.2'
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3'
-end
+gem 'rails-assets-tether', source: 'https://rails-assets.org'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
