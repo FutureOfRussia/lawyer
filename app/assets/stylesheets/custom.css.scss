@@ -109,6 +109,7 @@
 
 /* About us */
 .about {
+	padding-bottom: 15px;
 	font-family: 'Comfortaa', 'Roboto', sans-serif;
 	.t-1 {
 		margin-top: 15px;
@@ -118,6 +119,9 @@
 	.t-2 {
 		font-weight: bold;
 		font-size: 1.5rem;
+	}
+	.t-3 {
+		max-width: 500px;
 	}
 	.block {
 		margin-top: 15px;
