@@ -120,8 +120,6 @@
 		font-weight: bold;
 		font-size: 1.5rem;
 	}
-	.t-3 {
-	}
 	.block {
 		margin-top: 15px;
 	}
@@ -273,17 +271,11 @@
 	
 /* About us */
 .about {
-	.t-1 {
-
-	}
-	.t-2 {
-
-	}
 	.t-3 {
-		
+		max-width: 600px;
 	}
 	.photo{
-
+		max-height: 750px;
 	}
 }		
 /* Certificates */
