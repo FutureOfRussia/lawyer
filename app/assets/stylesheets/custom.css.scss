@@ -109,7 +109,23 @@
 
 /* About us */
 .about {
-	height: 600px;
+	font-family: 'Comfortaa', 'Roboto', sans-serif;
+	.t-1 {
+		margin-top: 15px;
+		font-size: 2.8rem;
+		text-align: center;
+	}
+	.t-2 {
+		font-weight: bold;
+	}
+	.block {
+		margin-bottom: 15px;
+	}
+	.photo {
+		width: 400px;
+		height: 600px;
+		background-color: black;
+	}
 }
 
 .about.bg {
@@ -565,7 +581,6 @@
 
 .work {
 	.t-1 {
-		margin-top: 15px;
 		font-size: 2rem;
 	}
 	.step {
