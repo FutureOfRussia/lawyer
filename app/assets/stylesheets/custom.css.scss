@@ -217,6 +217,10 @@
 
 /* Services */
 .direct {
+	.block {
+		margin-bottom: 15px;
+		padding-top: 10px;
+	}
 	.i {
 		text-align: right;
 	}
@@ -227,9 +231,6 @@
 	}
 	.t-2 {
 		font-size: 1.6rem;
-	}
-	.t-3 {
-
 	}
 }
 
